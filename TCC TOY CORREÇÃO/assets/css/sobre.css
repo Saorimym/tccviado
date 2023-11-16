@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+html{
+    height: 200vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 30px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem{
+    background: #ffffff;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{   
+    color: #ffffff;
+}
+
+header i{
+    font-size: 30px;
+    color: #000000;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn-entrar button{
+    width: 130px;
+    height: 50px;
+    border: 0;
+    border-radius: 55px;
+    background: linear-gradient( to right, #EF7AFF,#B4A2FF);
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo{
+    width: 15vh;
+    height: 15vh;
+}
+
+.banner{
+    height: 140vh;
+    background-image: url(../img/Homebanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    font-size: 4em;
+    text-shadow: 0.1em 0.1em #ffffff;
+}
+
+/* Sobre */
+
+.faixa {
+    display: flex;
+    background-color:#EF7AFF; 
+    color: #fff;
+    padding: 30px;
+}
+
+.imagem {
+    flex: 3;
+    padding: 20px;
+}
+
+.imagem img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.texto {
+    flex: 4;
+    padding: 30px;
+}
+
+.texto h1 {
+    font-size: 28px;
+}
+
+.texto p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.missao-visao-valores {
+    display: flex;
+    gap: 12px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.item {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient( to right,  #EF7AFF,#B4A2FF); 
+    text-align: center;
+    border-radius: 9px;
+}
+
+.item i {
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.item h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.item p {
+    font-size: 17px;
+    text-align: justify;
+    color: #000000;
+}
+
+
+.footer {
+    background-color: #332431e1;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
